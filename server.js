@@ -14,16 +14,13 @@ app.get('/', (req, res) => {
 	res.send('hi!');
 });
 
-app.get('/starter', (req, res) => {
-	const set = req.query.set;
-	if (Object.keys(questionaires).includes(set)) {
-		res.json(questionaires[set]);
+app.get('/starter', async (req, res) => {
+	try {
+		const starterSymptoms = await Symptoms.find({ starter: true });
+		res.json(starterSymptoms);
 	}
-	else {
-		res.status(500).json({
-			error: true,
-			errorMsg: 'Questionaire not available'
-		});
+	catch (e) {
+		console.error(e);
 	}
 });
 

@@ -1,10 +1,12 @@
 const mongoose = require('mongoose');
-const issuesSchema = new Schema({
+
+const issuesSchema = new mongoose.Schema({
 	text: String,
 	fix: String,
 	symptoms: [{
-		type: Schema.Types.ObjectId,
+		type: mongoose.Schema.Types.ObjectId,
 		ref: 'symptoms'
 	}]
 });
+
 module.exports = mongoose.model('issues', issuesSchema);

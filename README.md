@@ -1,3 +1,3 @@
 # Hilfe, Neuland!
 
-Eine Anlaufstelle für medial-hilfebedürftigte Lehrer*innen.
+Eine Anlaufstelle für medial-hilfsbedürftigte Lehrer*innen.

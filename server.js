@@ -1,15 +1,20 @@
 const express = require('express');
 const app = express();
 
+const db = require('./connectDb');
+const Symptoms = require('./models/Symptoms');
+const Issues = require('./models/Issues');
+
+app.use((req, res, next) => {
+	res.set('Access-Control-Allow-Origin', '*');
+	next();
+});
+
 app.get('/', (req, res) => {
 	res.send('hi!');
 });
 
-const questionaires = {
-	beamer: require('./questionaires/beamer.json')
-};
-
-app.get('/questionaire', (req, res) => {
+app.get('/starter', (req, res) => {
 	const set = req.query.set;
 	if (Object.keys(questionaires).includes(set)) {
 		res.json(questionaires[set]);

@@ -1,0 +1,40 @@
+//Bildschirm, Smartboard, Beamer
+Keine Verbindung: Kabel überprüfen
+Falscher Eingang: Auf Computer 1 umschalten
+Nicht dupliziert: Windows+P, Duplizieren auswählen
+Gerät ausgeschaltet: Beamer/Smartboard/Bildschirm einschalten
+Computer ausgeschaltet: Computer einschalten
+
+//Smartboard
+Nicht kalibriert: Kalibrieren
+
+//Maus
+Maus ausgeschaltet: Maus einschalten
+Kabel nicht eingesteckt: Kabel einstecken
+Kein gutes Signal: Distanz zum PC verringern
+Treiber nicht installiert: Treiber installieren (lassen)
+Kabel defekt: Maus ersetzen
+Bluetooth-Verbindung nicht vorhanden: Bluetooth-Verbindung einrichten (lassen)
+Maus defekt: Maus ersetzen
+Subobtimaler Unterlage: Unterlage ersetzen
+Sensor verunreinigt: Sensor reinigen
+Batterie leer: Batterien austauschen
+Bluetooth-Empfänger defekt: Bluetooth-Empfänger ersetzen
+USB-Port defekt: Anderen USB-Port verwenden
+
+//Tastatur
+Tastatur ausgeschaltet: Tastatur einschalten
+Kabel nicht eingesteckt: Kabel einstecken
+Kein gutes Signal: Distanz zum PC verringern
+Treiber nicht installiert: Treiber installieren (lassen)
+Kabel defekt: Tastatur ersetzen
+Bluetooth-Empfänger defekt: Bluetooth-Empfänger ersetzen
+USB-Port defekt: Anderen USB-Port verwenden
+Tasten vertauscht: Taster zurücktauschen oder bewusst richtig verwenden
+
+//Browser
+Server nicht verfügbar: Keine Lösung, eventuell warten oder andere Quelle für benötigte Informationen suchen
+Keine Verbindung zum Internet: LAN-Kabel überprüfen
+
+//Medienwiedergabe von einem externen Medium
+Datei kann vom Windows Media Player nicht wiedergegeben werden: VLC Media Player verwenden

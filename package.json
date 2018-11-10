@@ -1,0 +1,15 @@
+{
+  "name": "hilfe-neuland",
+  "version": "1.0.0",
+  "description": "The backend server of \"Hilfe Neuland\"",
+  "main": "server.js",
+  "repository": "https://github.com/Jugendhackt/Hilfe-Neuland-Backend",
+  "author": "Jugendhackt",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "dev": "node ./server.js"
+  }
+}

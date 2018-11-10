@@ -35,6 +35,9 @@ Tasten vertauscht: Taster zurücktauschen oder bewusst richtig verwenden
 //Browser
 Server nicht verfügbar: Keine Lösung, eventuell warten oder andere Quelle für benötigte Informationen suchen
 Keine Verbindung zum Internet: LAN-Kabel überprüfen
+Browser wird nicht unterstützt: Anderen Browser verwenden
 
 //Medienwiedergabe von einem externen Medium
 Datei kann vom Windows Media Player nicht wiedergegeben werden: VLC Media Player verwenden
+USB-Port Defekt: Anderen USB-Port verwenden
+USB-Stick defekt: Anderen USB-Stick verwenden

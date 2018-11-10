@@ -1,0 +1,89 @@
+{
+	"text": "Funktioniert irgendeine Taste der Tastatur zuverlässig?",
+	"options": [
+		{
+			"text": "Ja",
+            "then": "Funktionieren bestimmte Tasten garnicht oder funktionieren sie falsch?",
+            "options":[
+                {
+                    "text": "Einige Tasten funktionieren gar nicht",
+                    "then": "Eventuell ist Ihre Tastatur kaputt. Holen Sie den Rat eines Experten ein."
+                },
+                {
+                    "text": "Einige Tasten haben die falsche Funktion",
+                    "then": "Sind die Tasten vertauscht? Fragen Sie im Zweifelsfall einen Schüler",
+                    "options": [
+                        {
+                            "text": "Ja",
+                            "then": "Tauschen Sie die Tasten zurück oder lassen Sie sie zurücktauschen"
+                        },
+                        {
+                            "text": "Nein",
+                            "then": "Holen Sie den Rat eines Experten ein. Eventuell ist die Tastatur kaputt."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Nein",
+            "then": "Funktioniert die Tastatur gar nicht oder nur immer wieder nicht?",
+            "options":[
+                {
+                    "text": "Sie funktioniert gar nicht.",
+                    "then": "Ist die Tastatur mit einem Kabel ausgestattet?",
+                    "options":[
+                        {
+                            "text": "Ja",
+                            "then": "Ist das Kabel in einen passenden Anschluss am Computer eingesteckt?",
+                            "options":[
+                                {
+                                    "text": "Ja",
+                                    "then": "Ziehen sie das Kabel heraus und stecken Sie es wieder herein. Funktioniert die Tastatur jetzt?",
+                                    "options":[
+                                        {
+                                            "text": "Ja"
+                                        },
+                                        {
+                                            "text": "Nein",
+                                            "then": "Sind andere passende Anschlüsse vorhanden?",
+                                            "options":[
+                                                {
+                                                    "text": "Ja",
+                                                    "then": "Probieren Sie diese Anschlüsse durch. Funktioniert die Tastatur in einem von ihnen?",
+                                                    "options":[
+                                                        {
+                                                            "text": "Ja"
+                                                        },
+                                                        {
+                                                            "text": "Nein",
+                                                            "then": "Untersuchen Sie das Kabel auf eventuelle Schäden. Können Sie welche entdecken?",
+                                                            "options":[
+                                                                {
+                                                                    "text": "Nein",
+                                                                    "then": ""
+                                                                },
+                                                                {
+                                                                    "text": "Ja",
+                                                                    "then": "Wahrscheinlich ist ist das Kabel Ihrer Tastatur kaputt. Holen Sie den Rat eines Experten ein und zeigen Sie ihm den Schaden."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "text": "Nein",
+                                                    "then": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+	]
+}

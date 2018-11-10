@@ -1,0 +1,30 @@
+{
+    "text":"Bewegt sich die Maus überhaupt?" , 
+    "options": [
+        {
+            "text": "Ja",
+            "then": "Betätigen Sie die rechte Taste ihrer Maus. Ist etwas passiert?",
+            "options": [
+                {
+                    "text": "Ja",
+                    "then": "Benutzen Sie die Mappe eines Schülers als Unterlage und reinigen Sie die durchsichtige Stelle unter der Maus, bei der ein rotes Licht herausscheinen mag. Funktioniert die Maus jetzt einwandfrei?",
+                    "options": [
+                        {
+                            "text": "Ja",
+                            "then": "Problem geloest!"
+                        }
+                    ]
+                },
+                {
+                    "text": "Nein",
+                    "then": "Setzten Sie sich direkt vor den Computer und versuchen sie es erneut. Wenn ihre Maus nun nicht einwandfrei funktioniert, ist sie kaputt. Besorgen Sie sich eine neue beim Technikbeauftragten Ihrer Schule."
+                }
+           ]
+        },
+        {
+            "text": "Nein",
+            "then": ""
+        }
+    ]
+    
+}

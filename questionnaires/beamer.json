@@ -1,0 +1,15 @@
+{
+	"text": "Erzeugt der Beamer ein Bild?",
+	"options":[
+		{
+			"text": "Ja",
+			"then": "Ist das Bild Schwarz/Blau o.ä., also nicht dem des Computers ähnlich?",
+			"options": [
+				{
+					"text": "Ja",
+					"then": "Drücken Sie die Windows-Taste und \"P\" gleichzeitig. Ein Menü öffnet sich."
+				}
+			]
+		}
+	]
+}

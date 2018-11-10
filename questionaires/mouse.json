@@ -17,13 +17,29 @@
                 },
                 {
                     "text": "Nein",
-                    "then": "Setzten Sie sich direkt vor den Computer und versuchen sie es erneut. Wenn ihre Maus nun nicht einwandfrei funktioniert, ist sie kaputt. Besorgen Sie sich eine neue beim Technikbeauftragten Ihrer Schule."
+                    "then": "Setzten Sie sich direkt vor den Computer und versuchen sie es erneut. Wenn ihre Maus nun immer noch nicht einwandfrei funktioniert, ist sie kaputt. Besorgen Sie sich eine neue beim Technikbeauftragten Ihrer Schule."
                 }
            ]
         },
         {
             "text": "Nein",
-            "then": ""
+            "then": "Ist Sie an? Leuchtet ein rotes Licht unterhalb der Maus?",
+            "options": [
+                {
+                    "text": "Ja",
+                    "then": "Halten sie eine kabellose Maus in der Hand?",
+                    "options":[
+                        {
+                            "text":"Ja",
+                            "then": "Fragen Sie einen Experten in Ihrer Schule, bspw. einen den IT-Experten ihrer Schule."
+                        }
+                    ]
+                },
+                {
+                    "text": "Nein",
+                    "then": "Schalten Sie die Maus ein!"
+                }
+            ]
         }
     ]
     

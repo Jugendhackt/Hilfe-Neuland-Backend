@@ -6,7 +6,7 @@
 			"then": "Schalte ihn ein."
 		},
 		{
-			"text": "Nein",
+			"text": "Nein", 
 			"then":"Ist er eingeschaltet?",
 			"options": [
 				{

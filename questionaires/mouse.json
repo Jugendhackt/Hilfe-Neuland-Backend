@@ -1,0 +1,16 @@
+{
+    "text":"Bewegt sich die Maus überhaupt?" , 
+    "options": [
+        {
+            "text": "Ja",
+            "then": "Betätigen Sie die rechte Taste ihrer Maus. Ist etwas passiert?",
+            "options": [
+                {
+                    "text": "Ja",
+                    "then": "Benutzen Sie die Mappe eines Schülers als Unterlage und reinigen Sie die durchsichtige Stelle unter der Maus, bei der ein rotes Licht herausscheinen mag."
+                }
+           ]
+        }
+    ]
+    
+}

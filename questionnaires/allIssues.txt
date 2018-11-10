@@ -1,43 +1,43 @@
 //Bildschirm, Smartboard, Beamer
-Keine Verbindung: Kabel überprüfen
-Falscher Eingang: Auf Computer 1 umschalten
-Nicht dupliziert: Windows+P, Duplizieren auswählen
-Gerät ausgeschaltet: Beamer/Smartboard/Bildschirm einschalten
-Computer ausgeschaltet: Computer einschalten
+Keine Verbindung: Kabel überprüfen: 2,3
+Falscher Eingang: Auf Computer 1 umschalten: 2,3
+Nicht dupliziert: Windows+P, Duplizieren auswählen: 4
+Gerät ausgeschaltet: Beamer/Smartboard/Bildschirm einschalten: 2,5
+Computer ausgeschaltet: Computer einschalten: 2,3
 
 //Smartboard
-Nicht kalibriert: Kalibrieren
+Nicht kalibriert: Kalibrieren: 8
 
 //Maus
-Maus ausgeschaltet: Maus einschalten
-Kabel nicht eingesteckt: Kabel einstecken
-Kein gutes Signal: Distanz zum PC verringern
-Treiber nicht installiert: Treiber installieren (lassen)
-Kabel defekt: Maus ersetzen
-Bluetooth-Verbindung nicht vorhanden: Bluetooth-Verbindung einrichten (lassen)
-Maus defekt: Maus ersetzen
-Subobtimaler Unterlage: Unterlage ersetzen
-Sensor verunreinigt: Sensor reinigen
-Batterie leer: Batterien austauschen
-Bluetooth-Empfänger defekt: Bluetooth-Empfänger ersetzen
-USB-Port defekt: Anderen USB-Port verwenden
+Maus ausgeschaltet: Maus einschalten: 12,13,14,18
+Kabel nicht eingesteckt: Kabel einstecken: 12,13,14
+Kein gutes Signal: Distanz zum PC verringern: 15,16
+Treiber nicht installiert: Treiber installieren (lassen): 12,13
+Kabel defekt: Maus ersetzen: 12,13,14,17
+Bluetooth-Verbindung nicht vorhanden: Bluetooth-Verbindung einrichten (lassen): 12,13,18
+Maus defekt: Maus ersetzen: 12,13,14,17
+Subobtimaler Unterlage: Unterlage ersetzen: 15
+Sensor verunreinigt: Sensor reinigen: 15
+Batterie leer: Batterien austauschen: 12,13,14,18
+Bluetooth-Empfänger defekt: Bluetooth-Empfänger ersetzen: 12,13,18
+USB-Port defekt: Anderen USB-Port verwenden: 12,13,18
 
 //Tastatur
-Tastatur ausgeschaltet: Tastatur einschalten
-Kabel nicht eingesteckt: Kabel einstecken
-Kein gutes Signal: Distanz zum PC verringern
-Treiber nicht installiert: Treiber installieren (lassen)
-Kabel defekt: Tastatur ersetzen
-Bluetooth-Empfänger defekt: Bluetooth-Empfänger ersetzen
-USB-Port defekt: Anderen USB-Port verwenden
-Tasten vertauscht: Taster zurücktauschen oder bewusst richtig verwenden
+Tastatur ausgeschaltet: Tastatur einschalten: 23,24,25
+Kabel nicht eingesteckt: Kabel einstecken: 23,24
+Kein gutes Signal: Distanz zum PC verringern: 28,29
+Treiber nicht installiert: Treiber installieren (lassen): 23,24
+Kabel defekt: Tastatur ersetzen: 23,24,26,28
+Bluetooth-Empfänger defekt: Bluetooth-Empfänger ersetzen: 23,24,25
+USB-Port defekt: Anderen USB-Port verwenden: 23,24,25
+Tasten vertauscht: Taster zurücktauschen oder bewusst richtig verwenden: 27
 
 //Browser
-Server nicht verfügbar: Keine Lösung, eventuell warten oder andere Quelle für benötigte Informationen suchen
-Keine Verbindung zum Internet: LAN-Kabel überprüfen
-Browser wird nicht unterstützt: Anderen Browser verwenden
+Server nicht verfügbar: Keine Lösung, eventuell warten oder andere Quelle für benötigte Informationen suchen: 34,35
+Keine Verbindung zum Internet: LAN-Kabel überprüfen: 33,36
+Browser wird nicht unterstützt: Anderen Browser verwenden: 34
 
 //Medienwiedergabe von einem externen Medium
-Datei kann vom Windows Media Player nicht wiedergegeben werden: VLC Media Player verwenden
-USB-Port Defekt: Anderen USB-Port verwenden
-USB-Stick defekt: Anderen USB-Stick verwenden
+Datei kann vom Windows Media Player nicht wiedergegeben werden: VLC Media Player verwenden: 40
+USB-Port Defekt: Anderen USB-Port verwenden: 41
+USB-Stick defekt: Anderen USB-Stick verwenden: 41

@@ -4,7 +4,7 @@
   "description": "The backend server of \"Hilfe Neuland\"",
   "main": "server.js",
   "repository": "https://github.com/Jugendhackt/Hilfe-Neuland-Backend",
-  "author": "Jugendhackt (2x Christian, Tobias, Anton, M",
+  "author": "Jugendhackt (2x Christian, Tobias, Anton, Malte, Max)",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",

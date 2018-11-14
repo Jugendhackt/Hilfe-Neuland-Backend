@@ -1,6 +1,12 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/neuland');
+const dbURI = process.env.DB_CONNECTION_STRING;
+if (!dbURI) {
+	console.error('Missing env variable DB_CONNECTION_STRING, shutting down.');
+	process.exit();
+}
+
+mongoose.connect(dbURI, { useNewUrlParser: true });
 const db = mongoose.connection;
 
 db.on('error', (e) => {
